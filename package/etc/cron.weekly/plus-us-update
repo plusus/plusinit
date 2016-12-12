@@ -1,0 +1,4 @@
+#!/bin/bash
+
+apt-get --yes --allow-unauthenticated -q update;
+apt-get --yes --allow-unauthenticated -q upgrade;

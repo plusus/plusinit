@@ -1,0 +1,3 @@
+[org/gnome/desktop/wm/preferences]
+# default layout for application
+button-layout=':minimize,maximize,close'

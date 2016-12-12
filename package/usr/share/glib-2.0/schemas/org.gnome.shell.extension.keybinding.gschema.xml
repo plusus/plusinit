@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-shell-extensions">
+  <schema path="/org/gnome/shell/extension/keybinding/" id="org.gnome.shell.extension.keybinding">
+    <key type="as" name="toggle-app-menu">
+      <default>["Super_L"]</default>
+      <summary>Keybinding to toggle the application menu</summary>
+      <description>Keybinding to toggle the application menu</description>
+    </key>
+  </schema>
+</schemalist>

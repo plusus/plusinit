@@ -1,0 +1,11 @@
+[org/gnome/desktop/screensaver]
+lock-enabled='false'
+
+[org/gnome/desktop/screensaver]
+lock-delay='uint32 4294967295'
+
+[org/gnome/desktop/session]
+idle-delay='uint32 4294967295'
+
+[org/gnome/desktop/lockdown]
+disable-lock-screen='true'

@@ -1,0 +1,21 @@
+#!/bin/bash -e
+
+# Update the dconf schema
+dconf update
+
+# Add PLUS plymounth theme
+plymouth-set-default-theme joy-plus-us
+
+update-initramfs -u
+
+fc-cache -f -v
+
+# Add plustutodesklet to home folders
+for USER in $(find /home/ -maxdepth 1 -mindepth 1 -type d -printf '%f ')
+do
+	rsync -a ./etc/skel/ /home/$USER/
+	chown $USER:$USER -R /home/$USER
+done
+
+sed -i 's/300/0/g' /usr/share/glib-2.0/schemas/org.gnome.desktop.session.gschema.xml
+glib-compile-schemas /usr/share/glib-2.0/schemas/

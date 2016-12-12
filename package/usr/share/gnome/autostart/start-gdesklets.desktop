@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Start gDesklets
+Exec=gdesklets start
+Terminal=false
+Type=Application
+MimeType=application/x-gdesklets-display
+Categories=Utility;
+StartupNotify=false

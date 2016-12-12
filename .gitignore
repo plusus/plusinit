@@ -1,0 +1,6 @@
+# Debian packaging
+control
+md5sums
+
+# Package
+*.deb

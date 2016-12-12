@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Joy-plus-us
+Description=project theme.
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/joy-plus-us
+ScriptFile=/usr/share/plymouth/themes/joy-plus-us/joy-plus-us.script

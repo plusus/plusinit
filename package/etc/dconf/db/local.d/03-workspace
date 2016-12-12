@@ -1,0 +1,15 @@
+[org/gnome/mutter]
+# remove the super keybinding to access the overlay-laucher view
+overlay-key=''
+
+[org/gnome/shell/overrides]
+#make sure no override for dynamic workspaces exist (set to false)
+dynamic-workspaces=false
+
+[org/gnome/desktop/wm/preferences]
+#limit the number of workspace
+num-workspaces=1
+
+[org/gnome/shell]
+#default favorite
+favorite-apps=['org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'wps-office-wps.desktop', 'wps-office-wpp.desktop']

@@ -1,0 +1,3 @@
+[org/gnome/nautilus/preferences]
+# default layout of nautilus
+always-use-location-entry=true
